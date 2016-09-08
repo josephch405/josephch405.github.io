@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+canvas {
+    position: fixed;
+    z-index: -1;
+}
+
+
+/*
+@keyframes intro {
+    0% {
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0vh;
+    }
+    50% {
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0vh;
+    }
+    100% {
+        left: 12vw;
+        top: 4vh;
+        width: 14vh;
+        height: 14vh;
+        border-radius: 14vh;
+    }
+}
+
+#introDiv {
+    left: 12vw;
+    top: 4vh;
+    width: 14vh;
+    height: 14vh;
+    border-radius: 14vh;
+    position: absolute;
+    margin: 0;
+    background-color: #FF9900;
+    animation-name: intro;
+    animation-duration: 1s;
+    z-index: 10;
+}*/
+
+@keyframes logo {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+#logo {
+    position: fixed;
+    left: 4vh;
+    top: 4vh;
+    height: 14vh;
+    z-index: 10;
+    animation-name: logo;
+    animation-duration: .5s;
+    transition: all .2s;
+    -webkit-transform: rotate(0deg);
+    -webkit-backface-visibility: hidden;
+    border-radius: 16vh;
+    box-shadow: 0 0 5px 0 black;
+    background-color: #FF9900;
+}
+
+#logo:hover {
+    -webkit-transform: rotate(45deg);
+    -webkit-backface-visibility: hidden;
+    box-shadow: 0 0 10px 0 black;
+}
+
+#portrait {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 84vh;
+    -webkit-backface-visibility: hidden;
+}
+
+#navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    height: 8vh;
+    z-index: 10;
+    background-color: #FF9900;
+    box-shadow: 0 0 2px 0 black;
+}
+
+#navbar > div {
+    flex-grow: 1;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 8vh;
+    color: white;
+    font-family: Muli;
+    font-size: 3vh;
+}
+
+#t3 {
+    top: 0;
+    right: 50vw;
+    width: 0;
+    height: 0;
+    border-bottom: 4vh solid transparent;
+    border-left: 3vh solid transparent;
+    border-right: 3vh solid #FF9900;
+    border-top: 4vh solid #FF9900;
+    position: absolute;
+}
+
+#div0{
+    width:100vw;
+    height:100vh;
+}
+
+#div1 {
+    position: absolute;
+    top: 30vh;
+    left: 50vw;
+}
+
+#div2 {
+    height: 2vh;
+    width: 100vw;
+    background-color: rgba(100,100,100,1);
+}
+
+#div3 {
+    height: 98vh;
+    width: 100vw;
+    background-color: rgba(100,100,100,.5);
+    padding: 20vh 18vw 10vh 10vw;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Arvo;
+    font-size: 15vh;
+    margin: 2vh;
+}
+
+h2 {
+    font-family: Arvo;
+    font-size: 6vh;
+    margin: 2vh;
+}
+
+h3 {
+    font-family: Arvo;
+    font-size: 4vh;
+    margin: 2vh;
+}
+
+a {
+    color:#FF9900;
+}
+
+.card{
+    font-family: Arvo;
+    display:inline-flex;
+    background-color: #FFFFFF;
+    width:20vw;
+    height:50vh;
+    text-align: middle;
+}
