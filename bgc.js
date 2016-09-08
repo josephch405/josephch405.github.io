@@ -102,3 +102,22 @@ BGC = {
 BGC.init();
 
 setInterval(BGC.draw, 50);
+
+
+
+
+
+
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, "easeInOutCubic", function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
