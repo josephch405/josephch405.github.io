@@ -59,8 +59,8 @@ canvas {
 
 #logo {
     position: fixed;
-    left: 4vh;
-    top: 4vh;
+    left: 5vh;
+    top: 5vh;
     height: 14vh;
     z-index: 10;
     animation-name: logo;
@@ -92,7 +92,7 @@ canvas {
     position: fixed;
     top: 0;
     right: 0;
-    width: 50vw;
+    width: 33vw;
     height: 8vh;
     z-index: 10;
     background-color: #FF9900;
@@ -188,18 +188,29 @@ h3 {
     margin: 2vh;
 }
 
+h4{
+    color:#888888;
+}
+
 a {
     color: #FF9900;
 }
 
 .card {
     font-family: Arvo;
-    display: inline-flex;
     background-color: #FFFFFF;
     width: 20vw;
     height: 50vh;
-    text-align: middle;
+    text-align: center;
     box-shadow: 0 0 1vh 0 black;
+    float:left;
+    margin:2vh;
+    padding:2vh;
+}
+
+.card img{
+    height:auto;
+    width:100%;
 }
 
 .panel{
