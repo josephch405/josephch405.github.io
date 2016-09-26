@@ -139,7 +139,7 @@ canvas {
     width: 100vw;
     border-top: 2vh solid #666666;
     background-color: rgba(100, 100, 100, .5);
-    padding: 20vh 18vw 10vh 10vw;
+    padding: 20vh 6vw 10vh 6vw;
     box-sizing: border-box;
 }
 
@@ -204,8 +204,12 @@ a {
     text-align: center;
     box-shadow: 0 0 1vh 0 black;
     float:left;
-    margin:2vh;
-    padding:2vh;
+    margin:1vh;
+    padding:1vh;
+    text-decoration: none;
+}
+.card:hover{
+    box-shadow: 0 0 3vh 0 black;;
 }
 
 .card img{
@@ -221,4 +225,9 @@ a {
     height:100vh;
     background-color: white;
     box-shadow: 0 0 1vh 0 black;
+}
+
+#arr{
+    height:50%;
+    width:auto;
 }
