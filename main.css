@@ -73,6 +73,13 @@ canvas {
     background-color: #FF9900;
 }
 
+.mini{
+    left: 3vh !important;
+    top: 3vh !important;
+    height: 10vh !important;
+    box-shadow: 0 0 5px 0 black !important;
+}
+
 #logo:hover {
     -webkit-transform: rotate(45deg);
     -webkit-backface-visibility: hidden;
@@ -138,13 +145,11 @@ canvas {
     height: 100vh;
     width: 100vw;
     border-top: 2vh solid #666666;
-    background-color: rgba(100, 100, 100, .5);
-    padding: 20vh 6vw 10vh 6vw;
     box-sizing: border-box;
 }
 
 #ideas {
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     border-top: 2vh solid #666666;
     background-color: rgba(100, 100, 100, .5);
@@ -155,8 +160,6 @@ canvas {
 #about {
     height: 100vh;
     width: 100vw;
-    border-top: 2vh solid #666666;
-    background-color: rgba(100, 100, 100, .5);
     padding: 20vh 18vw 10vh 10vw;
     box-sizing: border-box;
 }
@@ -186,10 +189,11 @@ h3 {
     font-family: Arvo;
     font-size: 4vh;
     margin: 2vh;
+    color:#000000;
 }
 
 h4{
-    color:#888888;
+    color: #FF9900;
 }
 
 a {
@@ -198,18 +202,24 @@ a {
 
 .card {
     font-family: Arvo;
-    background-color: #FFFFFF;
-    width: 20vw;
-    height: 50vh;
+    width: 21vw;
+    height: 83vh;
     text-align: center;
-    box-shadow: 0 0 1vh 0 black;
     float:left;
-    margin:1vh;
-    padding:1vh;
+    padding: 2vw;
+    padding-top: 15vh;
+    padding-bottom: 0vh;
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    background-color: rgba(230, 230, 230, .4);
 }
 .card:hover{
-    box-shadow: 0 0 3vh 0 black;;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.card div{
+    color:#888888;
+    font-size:2vh;
 }
 
 .card img{
@@ -228,6 +238,6 @@ a {
 }
 
 #arr{
-    height:50%;
+    height:40%;
     width:auto;
 }
