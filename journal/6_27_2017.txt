@@ -1,0 +1,7 @@
+6/27/2017
+
+And such is the rationale behind personal improvement - it's consistent change meant to optimize the self. 
+To some extent, I view this as a training problem in data science - I seek to minimize the differences between my expectations and real world feedback. In that sense, life can be seen as a supervised training task.
+Some ML specific terminology have their own counterparts in this analogy of life. Most notably, every model deals with Noise, Variance and Bias. 
+First, let's examine noise. In data science it's as painstakingly straightforward as it gets - noice represents how messed up the data is. This "noise" is something that exists on top of the underlying data. It's as if you were trying to chart out Antarctica armed with a ruler - you can never get a clear enough picture. The more noise there is, the less patterns exist - information becomes chaotic and ultimately useless. This is what drives pessimism - as we advance in our knowledge, so much seems to just happen without reason, and the more we are exposed to nature's capricious tendencies, the more we get frustrated.
+(cont)
