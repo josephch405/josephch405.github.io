@@ -69,3 +69,11 @@ a{
 	color: black;
 	text-decoration: none;
 }
+
+.break {
+	width: 100%;
+	font-size: 4vh;
+	padding: 2vh;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
