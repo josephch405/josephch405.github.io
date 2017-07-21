@@ -1,8 +1,20 @@
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <title>Jo Chuang</title>
-    <link rel="shortcut icon" href="icon.png" />
+    <style>
+    .async-hide {
+        opacity: 0 !important
+    }
+    </style>
+    <script>
+    (function(a, s, y, n, c, h, i, d, e) {
+        s.className += ' ' + y;
+        h.start = 1 * new Date;
+        h.end = i = function() { s.className = s.className.replace(RegExp(' ?' + y), '') };
+        (a[n] = a[n] || []).hide = h;
+        setTimeout(function() { i();
+            h.end = null }, c);
+        h.timeout = c;
+    })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, { 'GTM-5HMQSTW': true });
+    </script>
     <script>
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -17,128 +29,139 @@
     })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-85207771-2', 'auto');
+    ga('require', 'GTM-5HMQSTW');
     ga('send', 'pageview');
     </script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Jo Chuang</title>
+    <link rel="shortcut icon" href="icon.png" />
 </head>
 
 <body>
-    <div id = "page1">
-        <img id = "mainIcon" src = "icon.png">
+    <div id="page1">
+        <img id="mainIcon" src="icon.png">
         <h1>Jo Chuang</h1>
     </div>
-
-
-    <div id = "block-container">
-        <div class = "break">
+    <div id="block-container">
+        <div class="break">
             Projects
         </div>
-        <div class = "card">
-            <a href = "http://www.jochuang.com/mldemos/build/" target="_blank">
-                <div class = "card-top" style="background-image:url('./img/mldemos.png')">
+        <div class="card">
+            <a href="http://www.jochuang.com/mldemos/build/" target="_blank">
+                <div class="card-top" style="background-image:url('./img/mldemos.png')">
                 </div>
-                <div class = "card-bottom">
-                    <b>Introductory ML Demos</b><br><br>
-                    2D canvas showing classic ML techniques such as KNN, dense networks and more.
-                </div>
-            </a>
-        </div>
-        <div class = "card">
-            <a href = "http://www.jochuang.com/Double-Moon-Demo/test.html" target="_blank">
-                <div class = "card-top" style="background-image:url('./img/doubleMoon.png')">
-                </div>
-                <div class = "card-bottom">
-                    <b>Double Moon Demo</b><br><br>
-                    Simple two-layered neural net for classifying two arcs
+                <div class="card-bottom">
+                    <b>Introductory ML Demos</b>
+                    <br>
+                    <br> 2D canvas showing classic ML techniques such as KNN, dense networks and more.
                 </div>
             </a>
         </div>
-        <div class = "card">
-            <a href = "http://www.jochuang.com/Trailblazer-Site/html/main.html" target="_blank">
-                <div class = "card-top" style="background-image:url('./img/trailblazer.png')">
+        <div class="card">
+            <a href="http://www.jochuang.com/Double-Moon-Demo/test.html" target="_blank">
+                <div class="card-top" style="background-image:url('./img/doubleMoon.png')">
                 </div>
-                <div class = "card-bottom">
-                    <b>Trailblazer</b><br><br>
-                    Flexible, project-focused manager - use Cards to narrow down and map out your goals.
-                </div>
-            </a>
-        </div>
-        <div class = "card">
-            <a href = "https://chrome.google.com/webstore/detail/habivator-build-a-habit/nidmklgpplnfghikfnkbdgldlkdgddcn/" target="_blank">
-                <div class = "card-top" style="background-image:url('./img/habivator.png')">
-                </div>
-                <div class = "card-bottom">
-                    <b>Habivator</b><br><br>
-                    A Chrome extension for tracking habits. Keep them up every week!
+                <div class="card-bottom">
+                    <b>Double Moon Demo</b>
+                    <br>
+                    <br> Simple two-layered neural net for classifying two arcs
                 </div>
             </a>
         </div>
-        <div class = "card">
-            <a href = "https://github.com/kwang21093/Showerfy" target="_blank">
-                <div class = "card-top" style="background-image:url('./img/showerfy.png')">
+        <div class="card">
+            <a href="http://www.jochuang.com/Trailblazer-Site/html/main.html" target="_blank">
+                <div class="card-top" style="background-image:url('./img/trailblazer.png')">
                 </div>
-                <div class = "card-bottom">
-                    <b>Showerfy - Big Red Hacks</b><br><br>
-                    Awkwardly explained onstage why we were making showers shorter (with music!)
+                <div class="card-bottom">
+                    <b>Trailblazer</b>
+                    <br>
+                    <br> Flexible, project-focused manager - use Cards to narrow down and map out your goals.
                 </div>
             </a>
         </div>
-        <div class = "break">
+        <div class="card">
+            <a href="https://chrome.google.com/webstore/detail/habivator-build-a-habit/nidmklgpplnfghikfnkbdgldlkdgddcn/" target="_blank">
+                <div class="card-top" style="background-image:url('./img/habivator.png')">
+                </div>
+                <div class="card-bottom">
+                    <b>Habivator</b>
+                    <br>
+                    <br> A Chrome extension for tracking habits. Keep them up every week!
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://github.com/kwang21093/Showerfy" target="_blank">
+                <div class="card-top" style="background-image:url('./img/showerfy.png')">
+                </div>
+                <div class="card-bottom">
+                    <b>Showerfy - Big Red Hacks</b>
+                    <br>
+                    <br> Awkwardly explained onstage why we were making showers shorter (with music!)
+                </div>
+            </a>
+        </div>
+        <div class="break">
             Sites
         </div>
-        <div class = "card">
-            <a href = "https://github.com/josephch405" target="_blank">
-                <div class = "card-top" style="background-image:url('./img/github.png')">
+        <div class="card">
+            <a href="https://github.com/josephch405" target="_blank">
+                <div class="card-top" style="background-image:url('./img/github.png')">
                 </div>
-                <div class = "card-bottom">
-                    <b>Github</b><br><br>
-                    Where I keep most of my source code. Except my top secret personal AI, of course. If I had one.
-                </div>
-            </a>
-        </div>
-        <div class = "card">
-            <a href = "https://www.kaggle.com/josephch405" target="_blank">
-                <div class = "card-top" style="background-image:url('./img/kaggle.png')">
-                </div>
-                <div class = "card-bottom">
-                    <b>Kaggle</b><br><br>
-                    Where I pretend I know XG-boost. Like, trees and stuff, right? And Meta-learners?
+                <div class="card-bottom">
+                    <b>Github</b>
+                    <br>
+                    <br> Where I keep most of my source code. Except my top secret personal AI, of course. If I had one.
                 </div>
             </a>
         </div>
-        <div class = "card">
-            <a href = "https://soundcloud.com/jo_chuang" target="_blank">
-                <div class = "card-top" style="background-image:url('./img/soundcloud.png')">
+        <div class="card">
+            <a href="https://www.kaggle.com/josephch405" target="_blank">
+                <div class="card-top" style="background-image:url('./img/kaggle.png')">
                 </div>
-                <div class = "card-bottom">
-                    <b>Soundcloud</b><br><br>
-                    Homebrew music.
+                <div class="card-bottom">
+                    <b>Kaggle</b>
+                    <br>
+                    <br> Where I pretend I know XG-boost. Like, trees and stuff, right? And Meta-learners?
                 </div>
             </a>
         </div>
-        <div class = "break">
+        <div class="card">
+            <a href="https://soundcloud.com/jo_chuang" target="_blank">
+                <div class="card-top" style="background-image:url('./img/soundcloud.png')">
+                </div>
+                <div class="card-bottom">
+                    <b>Soundcloud</b>
+                    <br>
+                    <br> Homebrew music.
+                </div>
+            </a>
+        </div>
+        <div class="break">
             Contact
         </div>
-        <div class = "card">
-            <a href = "mailto:josephch405@gmail.com" target="_blank">
-                <div class = "card-top" style="background-image:url('./img/email.png')">
+        <div class="card">
+            <a href="mailto:josephch405@gmail.com" target="_blank">
+                <div class="card-top" style="background-image:url('./img/email.png')">
                 </div>
-                <div class = "card-bottom">
-                    <b>Email</b><br><br>
-                    josephch405@gmail.com - Who uses email anyway?
+                <div class="card-bottom">
+                    <b>Email</b>
+                    <br>
+                    <br> josephch405@gmail.com - Who uses email anyway?
                 </div>
             </a>
         </div>
-        <div class = "card">
-            <a href = "https://www.linkedin.com/in/jochuang/" target="_blank">
-                <div class = "card-top" style="background-image:url('./img/linkedin.png')">
+        <div class="card">
+            <a href="https://www.linkedin.com/in/jochuang/" target="_blank">
+                <div class="card-top" style="background-image:url('./img/linkedin.png')">
                 </div>
-                <div class = "card-bottom">
-                    <b>Linkedin</b><br><br>
-                    for(i in range(100)):
-                    applyForJob()
+                <div class="card-bottom">
+                    <b>Linkedin</b>
+                    <br>
+                    <br> for(i in range(100)): applyForJob()
                 </div>
             </a>
         </div>
     </div>
 </body>
-
