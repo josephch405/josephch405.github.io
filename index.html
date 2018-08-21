@@ -1,18 +1,29 @@
 <head>
-    <meta name="theme-color" content="#FFFFFF"/>
+    <meta name="theme-color" content="#FFFFFF" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KWZZND2');</script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KWZZND2');
+    </script>
     <!-- End Google Tag Manager -->
     <script>
-        function load(){
+        function load() {
             var lazies = Array.prototype.slice.call(document.getElementsByClassName("lazy"));
             lazies.forEach(element => {
-                element.style.backgroundImage = "url(" +element.attributes["data-src"].value + ")";
+                element.style.backgroundImage = "url(" + element.attributes["data-src"].value + ")";
             });
         }
         window.onload = load;
@@ -20,11 +31,11 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
-    WebFont.load({
-        google: {
-        families: ['Montserrat']
-        }
-    });
+        WebFont.load({
+            google: {
+                families: ['Montserrat']
+            }
+        });
     </script>
     <link rel="stylesheet" type="text/css" href="main.min.css">
     <title>Jo Chuang</title>
@@ -33,8 +44,9 @@
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWZZND2"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWZZND2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div id="page1">
         <img id="mainIcon" src="icon.png">
@@ -47,29 +59,29 @@
         </div>
         <div class="card">
             <a target="_blank" href="http://www.ML-Playground.com/">
-                <div data-src = "./img/mldemos.png" class="card-top lazy">
+                <div data-src="./img/mldemos.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Machine Learning Playground</b>
                     <br>
-                    <br>Test and learn about ML algorithms such as KNN, neural networks and more.
+                    <br>Learn about fantastic ML algorithms and where to find them.
                 </div>
             </a>
         </div>
         <div class="card">
             <a href="https://chrome.google.com/webstore/detail/daynero-a-minimalist-new/maacngmpajmokngpihimcpkcahkldghf?hl=en" target="_blank">
-                <div data-src = "./img/daynero.png" class="card-top lazy">
+                <div data-src="./img/daynero.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Daynero</b>
                     <br>
-                    <br> A minimalist new tab page for reminding myself to focus
+                    <br> A less morbid version of "How many days until you die"
                 </div>
             </a>
         </div>
         <div class="card">
             <a href="https://play.google.com/store/apps/details?id=com.josephch405.lookup" target="_blank">
-                <div data-src = "./img/lookup.png" class="card-top lazy">
+                <div data-src="./img/lookup.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Look Up</b>
@@ -80,7 +92,7 @@
         </div>
         <div class="card">
             <a href="http://www.jochuang.com/Trailblazer-Site/html/main.html" target="_blank">
-                <div data-src = "./img/trailblazer.png" class="card-top lazy">
+                <div data-src="./img/trailblazer.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Trailblazer</b>
@@ -91,18 +103,18 @@
         </div>
         <div class="card">
             <a href="https://github.com/kwang21093/Showerfy" target="_blank">
-                <div data-src = "./img/showerfy.png" class="card-top lazy">
+                <div data-src="./img/showerfy.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Showerfy - Big Red Hacks</b>
                     <br>
-                    <br> Awkwardly explained onstage why we were making showers shorter (with music!)
+                    <br> We made showers shorter (with music!)
                 </div>
             </a>
         </div>
         <div class="card">
             <a href="https://chrome.google.com/webstore/detail/habivator-build-a-habit/nidmklgpplnfghikfnkbdgldlkdgddcn/" target="_blank">
-                <div data-src = "./img/habivator.png" class="card-top lazy">
+                <div data-src="./img/habivator.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Habivator</b>
@@ -113,7 +125,7 @@
         </div>
         <div class="card">
             <a href="http://www.jochuang.com/Double-Moon-Demo/test.html" target="_blank">
-                <div data-src = "./img/doubleMoon.png" class="card-top lazy">
+                <div data-src="./img/doubleMoon.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Double Moon Demo</b>
@@ -127,7 +139,7 @@
         </div>
         <div class="card">
             <a href="https://github.com/josephch405" target="_blank">
-                <div data-src = "./img/github.png" class="card-top lazy">
+                <div data-src="./img/github.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Github</b>
@@ -138,18 +150,18 @@
         </div>
         <div class="card">
             <a href="https://www.kaggle.com/josephch405" target="_blank">
-                <div data-src = "./img/kaggle.png" class="card-top lazy">
+                <div data-src="./img/kaggle.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Kaggle</b>
                     <br>
-                    <br> Where I pretend I know XG-boost. Like, trees and stuff, right? And Meta-learners?
+                    <br> Stacking estimators for fun and profit
                 </div>
             </a>
         </div>
         <div class="card">
             <a href="https://soundcloud.com/jo_chuang" target="_blank">
-                <div data-src = "./img/soundcloud.png" class="card-top lazy">
+                <div data-src="./img/soundcloud.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Soundcloud</b>
@@ -163,7 +175,7 @@
         </div>
         <div class="card">
             <a href="mailto:josephch405@gmail.com" target="_blank">
-                <div data-src = "./img/email.png" class="card-top lazy">
+                <div data-src="./img/email.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Email</b>
@@ -174,7 +186,7 @@
         </div>
         <div class="card">
             <a href="https://www.linkedin.com/in/jochuang/" target="_blank">
-                <div data-src = "./img/linkedin.png" class="card-top lazy">
+                <div data-src="./img/linkedin.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Linkedin</b>
@@ -185,7 +197,7 @@
         </div>
         <div class="card">
             <a href="./resumes/general.pdf" target="_blank">
-                <div data-src = "./img/resume.png" class="card-top lazy">
+                <div data-src="./img/resume.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Resume</b>
