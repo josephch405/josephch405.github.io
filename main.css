@@ -29,24 +29,29 @@ h1 {
 
 #block-container {
 	text-align: center;
-	max-width: 1080px;
+	max-width: 80vw;
 	display: inline-block;
 }
 
 .card {
-	transition: all 0.1s ease;
+	transition: all 0.2s ease;
 	width: 26vh;
 	height: 40vh;
-	box-shadow: 0 0 5vh 0 rgba(0, 0, 0, .2);
+	box-shadow: 0 0 2vh 0 rgba(0, 0, 0, .3);
 	border-radius: 1.5vh;
 	margin: 3vh;
 	display: inline-block;
 	vertical-align: top;
+	overflow: hidden;
+	background-position: 6vh 6vh;
+	background-repeat: no-repeat;
+	background-image: radial-gradient(farthest-side at 0 0, white 90%, #cccccc 200%);
 }
 
 .card:hover {
-	box-shadow: 0 0 7vh 0 rgba(0, 0, 0, .3);
-	transform: scale(1.05, 1.05)
+	box-shadow: 0 1vh 2.5vh 0 rgba(0, 0, 0, .3);
+	transform: scale(1.05, 1.05) translate(0, -1vh);
+	background-position: 0, 0;
 }
 
 .card-top {
