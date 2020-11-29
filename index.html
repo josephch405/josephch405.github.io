@@ -1,24 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta name="theme-color" content="#FFFFFF" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Google Tag Manager -->
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-KWZZND2');
-    </script>
-    <!-- End Google Tag Manager -->
+    <meta name="theme-color" content="#303030" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Jo Chuang's personal website." />
     <script>
         function load() {
             var lazies = Array.prototype.slice.call(document.getElementsByClassName("lazy"));
@@ -28,38 +14,29 @@
         }
         window.onload = load;
     </script>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script>
-        WebFont.load({
-            google: {
-                families: ['Montserrat']
-            }
-        });
-    </script>
-    <link rel="stylesheet" type="text/css" href="main.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>Jo Chuang</title>
     <link rel="shortcut icon" href="icon.png" />
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWZZND2" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <div id="page1">
-        <img id="mainIcon" src="icon.png">
-        <h1>Jo Chuang</h1>
-        <img id="dp" src="img/profile-incog.png">
+        <!-- <img id="mainIcon" src="icon.png"> -->
+        <img id="dp" src="img/face.jpg">
+        <h1>Jo Chuang</h1><br>
+        <p>[Pending witty description]</p>
+        <p>On hiatus until late 2021</p>
     </div>
     <div id="block-container">
         <div class="break">
             Projects
         </div>
         <div class="card">
-            <a target="_blank" href="http://quiklogs.com/">
-                <div data-src="https://quiklogs.com/static/favicon.png" class="card-top lazy" style="background-size:80px">
+            <a target="_blank" rel="noopener" href="http://quiklogs.com/">
+                <div data-src="https://quiklogs.com/static/favicon.png" class="card-top lazy"
+                    style="background-size:80px">
                 </div>
                 <div class="card-bottom">
                     <b>Quiklogs</b>
@@ -69,18 +46,19 @@
             </a>
         </div>
         <div class="card">
-            <a target="_blank" href="http://www.ML-Playground.com/">
+            <a target="_blank" rel="noopener" href="http://www.ML-Playground.com/">
                 <div data-src="./img/mldemos.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
-                    <b>Machine Learning Playground</b>
+                    <b>ML Playground</b>
                     <br>
-                    <br>Learn about fantastic ML algorithms and where to find them.
+                    <br>Fantastic ML algos and where to find them.
                 </div>
             </a>
         </div>
         <div class="card">
-            <a href="https://chrome.google.com/webstore/detail/daynero-a-minimalist-new/maacngmpajmokngpihimcpkcahkldghf?hl=en" target="_blank">
+            <a href="https://chrome.google.com/webstore/detail/daynero-a-minimalist-new/maacngmpajmokngpihimcpkcahkldghf?hl=en"
+                target="_blank" rel="noopener">
                 <div data-src="./img/daynero.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
@@ -90,8 +68,8 @@
                 </div>
             </a>
         </div>
-<!--         <div class="card">
-            <a href="https://play.google.com/store/apps/details?id=com.josephch405.lookup" target="_blank">
+        <!--         <div class="card">
+            <a href="https://play.google.com/store/apps/details?id=com.josephch405.lookup" target="_blank" rel="noopener">
                 <div data-src="./img/lookup.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
@@ -102,66 +80,56 @@
             </a>
         </div> Nice job finding this - Play Store took the app down but if you're interested ask me for the repo lol -->
         <div class="card">
-            <a href="http://www.jochuang.com/Trailblazer-Site/html/main.html" target="_blank">
+            <a href="http://www.jochuang.com/Trailblazer-Site/html/main.html" target="_blank" rel="noopener">
                 <div data-src="./img/trailblazer.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Trailblazer</b>
                     <br>
-                    <br> Flexible, project-focused manager - use Cards to narrow down and map out your goals.
+                    <br> Flexible, project-focused life manager
                 </div>
             </a>
         </div>
         <div class="card">
-            <a href="https://github.com/kwang21093/Showerfy" target="_blank">
+            <a href="https://github.com/kwang21093/Showerfy" target="_blank" rel="noopener">
                 <div data-src="./img/showerfy.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
-                    <b>Showerfy - Big Red Hacks</b>
+                    <b>Showerfy</b>
                     <br>
-                    <br> We made showers shorter (with music!)
+                    <br> Shorter showers with music
                 </div>
             </a>
         </div>
         <div class="card">
-            <a href="https://chrome.google.com/webstore/detail/habivator-build-a-habit/nidmklgpplnfghikfnkbdgldlkdgddcn/" target="_blank">
+            <a href="https://chrome.google.com/webstore/detail/habivator-build-a-habit/nidmklgpplnfghikfnkbdgldlkdgddcn/"
+                target="_blank" rel="noopener">
                 <div data-src="./img/habivator.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Habivator</b>
                     <br>
-                    <br> A Chrome extension for tracking habits. Keep them up every week!
+                    <br> A Chrome extension for tracking habits
                 </div>
             </a>
         </div>
         <div class="card">
-            <a href="http://www.jochuang.com/Double-Moon-Demo/test.html" target="_blank">
+            <a href="http://www.jochuang.com/Double-Moon-Demo/test.html" target="_blank" rel="noopener">
                 <div data-src="./img/doubleMoon.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Double Moon Demo</b>
                     <br>
-                    <br> Simple two-layered neural net for classifying two arcs
+                    <br> Pure JS neural net for classifying two arcs
                 </div>
             </a>
         </div>
         <!--https://jochuang.com/Blocs/web-export-->
-        <div class="break">
+        <!-- <div class="break">
             Sites
-        </div>
-        <div class="card">
-            <a href="https://github.com/josephch405" target="_blank">
-                <div data-src="./img/github.png" class="card-top lazy">
-                </div>
-                <div class="card-bottom">
-                    <b>Github</b>
-                    <br>
-                    <br> Where I keep code
-                </div>
-            </a>
-        </div>
-        <div class="card">
-            <a href="https://www.kaggle.com/josephch405" target="_blank">
+        </div> -->
+        <!-- <div class="card">
+            <a href="https://www.kaggle.com/josephch405" target="_blank" rel="noopener">
                 <div data-src="./img/kaggle.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
@@ -170,9 +138,9 @@
                     <br> Stacking estimators for fun and profit
                 </div>
             </a>
-        </div>
-        <div class="card">
-            <a href="https://soundcloud.com/jo_chuang" target="_blank">
+        </div> -->
+        <!-- <div class="card">
+            <a href="https://soundcloud.com/jo_chuang" target="_blank" rel="noopener">
                 <div data-src="./img/soundcloud.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
@@ -181,42 +149,66 @@
                     <br> Homebrew music.
                 </div>
             </a>
-        </div>
+        </div> -->
         <div class="break">
             Contact
         </div>
         <div class="card">
-            <a href="mailto:josephch405@gmail.com" target="_blank">
+            <a href="https://youtube.com/channel/UCk9XYQcakUBMOia6HyOPWnQ" target="_blank" rel="noopener">
+                <div data-src="./img/youtube.png" class="card-top lazy">
+                </div>
+                <div class="card-bottom">
+                    <b>Youtube</b>
+                    <br>
+                    <br> Will make covers for subs
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="mailto:josephch405@gmail.com" target="_blank" rel="noopener">
                 <div data-src="./img/email.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Email</b>
                     <br>
-                    <br> josephch405@gmail.com - Who uses email anyway?
+                    <br> Who uses email anyways
                 </div>
             </a>
         </div>
         <div class="card">
-            <a href="https://www.linkedin.com/in/jochuang/" target="_blank">
+            <a href="https://www.linkedin.com/in/jochuang/" target="_blank" rel="noopener">
                 <div data-src="./img/linkedin.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Linkedin</b>
                     <br>
-                    <br> for(i in range(100)): applyForJob()
+                    <br> Plz endorse thx
                 </div>
             </a>
         </div>
         <div class="card">
-            <a href="./resumes/resume_2019.pdf" target="_blank">
+            <a href="https://github.com/josephch405" target="_blank" rel="noopener">
+                <div data-src="./img/github.png" class="card-top lazy">
+                </div>
+                <div class="card-bottom">
+                    <b>Github</b>
+                    <br>
+                    <br> My very leet code
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <a href="./resumes/resume_2019.pdf" target="_blank" rel="noopener">
                 <div data-src="./img/resume.png" class="card-top lazy">
                 </div>
                 <div class="card-bottom">
                     <b>Resume</b>
                     <br>
-                    <br> Hustle never ends.
+                    <br> Hustle <strike>never</strike> ends (for now)
                 </div>
             </a>
         </div>
     </div>
 </body>
+
+</html>
